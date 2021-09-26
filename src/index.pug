@@ -1,0 +1,52 @@
+extends pug/base
+
+prepend vars
+	//-
+
+append vars
+	//-
+
+block content
+	//-
+	header
+		.container
+			.row.justify-between
+				.logo.header__logo
+					a(href="/")
+						img(src="./images/logo.svg")
+				.menu.heder__menu
+					nav
+						ul
+							li
+								a(href="#") Направления
+							li
+								a(href="#") Требования
+							li
+								a(href="#") Этапы
+							li
+								a(href="#") География
+	main
+		section.block.main-block
+			.container
+				.row
+					.main-block__text
+						.main-block__text
+							.main-block__text__stroke geek sea
+							h1 Оплачиваемая стажировка от РНКБ Банка
+							.main-block__text__link
+								a(href="#") Подать заявку
+							.main-block__text__tag
+								img(src="./images/main-block__text__tag.svg")
+					.main-block__buttons
+						.row.justify-between.images
+							img(src="./images/main-block__buttons__img1.svg").main-block__buttons__img1
+							img(src="./images/main-block__buttons__img2.svg").main-block__buttons__img2
+						.fake-form
+							img(src="./images/fake-form.svg").fake-form__image
+							.fake-form__inputs
+								a(href="#").fake-form__inputs__yes
+								a(href="#").fake-form__inputs__ofcourse
+
+
+
+
